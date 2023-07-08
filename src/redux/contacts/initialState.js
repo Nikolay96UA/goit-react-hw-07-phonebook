@@ -3,7 +3,7 @@ const filterInitialState = {
 };
 
 export const initialState = {
-  items: [{ id: 1123132123, name: 'Nikolay', number: 661813173 }],
+  items: [],
   isLoading: false,
   error: null,
 };
