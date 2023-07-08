@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className={css.page}>
       <div>
-        <h1 className={css.titlePage}>Phonebook</h1>
+        <h1 className={css.titlePage}>PhoneBook</h1>
         <ContactForm />
       </div>
       <div>
