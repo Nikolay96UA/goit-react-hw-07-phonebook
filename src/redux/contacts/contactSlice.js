@@ -40,7 +40,7 @@ const handleRejected = (state, { payload }) => {
 
 const contactsSlice = createSlice({
   name: 'contacts',
-  initialState: initialState || [],
+  initialState: initialState,
 
   extraReducers: builder => {
     const { PENDING, FULFILLED, REJECTED } = STATUS;
